@@ -1,0 +1,86 @@
+$body-bg: #f8fafc;
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: $body-bg;
+}
+h1, h2, h3, h4 {
+    font-weight: 700;
+    color: #214670;
+}
+h3{
+    font-size: 1.1rem;
+}
+p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    
+}
+
+#dropzone {
+    height: auto;
+}
+
+
+.text-primary {
+    color: #214670!important;
+   
+}
+.navbar.bg-white {
+    background-color: #214670!important;
+
+    a {
+        color: white!important;
+       
+    }
+}
+
+.navbar-nav .dropdown-menu {
+    background: #214670;
+
+    a:hover {
+        background: #214670;
+    }
+}
+
+.navbar.bg-white .navbar-brand{
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+legend {
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: uppercase;
+    width: auto;
+}
+
+.btn-primary {
+    background-color: #214670;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none !important;
+
+    &:hover {
+       background-color: darken(#214670, 10);
+    }
+}
+
+.alert-primary {
+    background: transparent;
+    text-align: center;
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #214670;
+}
+a{
+    text-decoration: none!important;
+}
+
+.dropzone .dz-preview .dz-image img{    
+    display: block;
+    object-fit: scale-down;
+    width: 200px;
+}
